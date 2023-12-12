@@ -1,15 +1,9 @@
-
-
-
 /* remove indentation of list items */
-
 ul {
   padding-left: 0;
 }
 
-
 /* remove traditional bullet from front of list items */
-/* Step 3 below here */
 li {
   list-style-type: none;
   background-color: #eee;
@@ -18,8 +12,6 @@ li {
   font-size: 20px;
 }
 
-
-/* Step 5 below here */
 .done {
   background-color: green;
 }
@@ -28,7 +20,6 @@ li {
 }
 
 /* mark task as finished */
-/* Step 6 below here */
 li.finished {
   color: white;
   background-color: gray;
@@ -50,13 +41,10 @@ input[type="button"] {
   padding: 10px;
 }
 
-/* Step 10 below here */
 .yellowbackground {
-  
+  background-color: yellow;
 }
 
-
-/* Step 12 below here */
 #divabout {
   background-color: yellow;
   width: 400px;
